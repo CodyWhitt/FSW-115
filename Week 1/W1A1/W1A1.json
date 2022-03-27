@@ -1,0 +1,69 @@
+{
+  "Menu": [
+    {
+      "category" : "Cold Sandwiches",
+      "item1" : {
+        "name": "Turkey Club",
+        "ingredients" : ["Ruben Bread", "Turkey", "lettuce", "Tomato"],
+        "description" : "A simply crafted turkey sandwich sandwich on a ruben bread."
+      },
+      "item2" : {
+        "name": "Ham Sandwich",
+        "ingredients" : ["Cold Cut Ham", "Lettuce", "American Cheese", "Dijon Mustard"],
+        "description" : "Cold Cut Ham Sandwich."
+      }
+    },
+    {
+      "category" : "Warm Sandwiches",
+      "item1" : {
+        "name": "BLT",
+        "ingredients" : ["White Bread", "Bacon", "lettuce", "Tomato"],
+        "description" : "A delicious sandwich made with expertly crafted bacon, lettuce, and tomato."
+      },
+      "item2" : {
+        "name": "Cheese Burger",
+        "ingredients" : ["White Bun", "Beef Hamburger", "lettuce", "Tomato", "pickles", "onions", "cheese"],
+        "description" : "Grilled patty slapped to gether with classic ingredients and cheese."
+      }
+    },
+    {
+      "category" : "Appetizers",
+      "item1" : {
+        "name" : "Salad",
+        "ingredients" : ["Mixed Greens", "Red Onions", "Olives", "Tomato", "shredded cheese"],
+        "description" : "Looking for something simple and light here it is."
+      },
+      "item2" : {
+        "name" : "Cheese Sticks",
+        "ingredients" : ["String Mozzarella" , "House made Breading"],
+        "description" : "Deep fried string cheese. Served with a side of ranch dressing."
+      }
+    },
+    {
+      "category" : "Desserts",
+      "item1" : {
+        "name": "Vanilla cone",
+        "ingredients" : ["Vanilla Ice Cream", "sugar cone"],
+        "description" : "Scoop of vanilla ice cream on a cone"
+      },
+      "item2" : {
+        "name": "Brownie",
+        "ingredients" : ["Chocolate", "Eggs", "Flour", "Milk"],
+        "description" : "A classic treat anyone can enjoy."
+      }
+    },
+    {
+      "category" : "Drinks",
+      "item1" : {
+        "name": "Matcha Green Milk Tea",
+        "ingredients" : ["Matcha", "Almost Milk", "Water"],
+        "description" : "Great for your health and delicious."
+        },
+      "item2" : {
+        "name": "Orange Juice",
+        "ingredients" : ["Orange", "Sweetener"],
+        "description" : "Easy OJ."
+      }
+    }   
+  ]
+}
