@@ -4,9 +4,7 @@ xhr.open("GET", "https://pokeapi.co/api/v2/pokemon", true)
 xhr.send()
 xhr.onreadystatechange = function(){
     if (xhr.readyState === 4 && xhr.status ===200) {
-        console.log(xhr.responseText)
         let data = JSON.parse(xhr.responseText)
-        console.log(data.results)
         showData(data.results)
     } else if(xhr.readyState === 4 && xhr.status !== 200){
         console.log(xhr.responseText)
@@ -16,8 +14,8 @@ xhr.onreadystatechange = function(){
 function showData(data){
     for (let i = 0; i < data.length; i++){
         const character = document.createElement("h1")
-        character.textContent = data[i].name
+        character.innerHTML = `${data[i].name} <a href="${data[i].url}"> ${data[i].url}</a>`
+        console.log(data[i].url)
         document.body.appendChild(character)
-        console.log(xhr.responseText)
     }
 }
