@@ -122,5 +122,5 @@ function deleteItem(x) {
 // On save, the todo will be edited in the database
 
 function updateItem (x) {
-    console.log('still working this out')
+    console.log('still working this out something to do with object.assign')
 }
