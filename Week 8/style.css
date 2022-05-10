@@ -1,0 +1,21 @@
+html{
+    background-color: darkgreen;
+}
+
+#header {
+    margin: auto 0;
+    text-align: center;
+}
+
+#headerWrapper {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#output {
+    text-align: center;
+    margin: 50px auto;
+}
